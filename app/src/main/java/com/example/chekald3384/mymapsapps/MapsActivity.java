@@ -58,9 +58,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng Sydney = new LatLng(-34, 151);
+        mMap.addMarker(new MarkerOptions().position(Sydney).title("Marker in Sydney"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(Sydney));
 
         // Add a marker on the map that shows your place eof birth
         //and displays the message "born here" when tapped.
